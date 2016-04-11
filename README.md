@@ -1,13 +1,14 @@
 ## Twitter Data Challenge
 
-This is some code I wrote for parsing through an array of hashes. The example metaphor I built this code around was working with a compound data structure, scraped via the Twitter API.
+This is a bit of code I wrote for parsing through an array of hashes.
 
-In the example, the method `twitter_data` returns the data structure used by my code.
+I built this code around the metaphor of working with a compound data structure, scraped from the Twitter API.
 
-Based on the data obtained from calling the `twitter_data` method, `app.rb` contains code that outputs the following:
+In my example, the method `twitter_data` returns the data structure used by my code.
 
-1. Each username followed by its description
-..* `NA` if there is no description
+**Based on the data obtained from calling the `twitter_data` method, `app.rb` contains code that outputs the following:**
+
+1. Each username followed by its description (`NA` if none)
 
 2. Each username followed by total number of followers
 
