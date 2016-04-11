@@ -10,18 +10,18 @@ The `twitter_data` method returns the data structure used by the rest of my code
 
 1. Each username followed by its description (`NA` if none)
 
-+ Each username followed by total number of followers
+2. Each username followed by total number of followers
 
-+ Each username and the length of that user's latest tweet
+3. Each username and the length of that user's latest tweet
 
-+ Each username followed by the total character count used in that user's last twenty tweets
+4. Each username followed by the total character count used in that user's last twenty tweets
 
-+ The user with the most followers
+5. The user with the most followers
 
-+ The user with the most friends
+6. The user with the most friends
 
-+ The user with the greatest number of tweets
+7. The user with the greatest number of tweets
 
-+ The users with a `description` listed in `twitter_data`
+8. The users with a `description` listed in `twitter_data`
 
-+ The users with a `location` listed in `twitter_data`
+9. The users with a `location` listed in `twitter_data`
